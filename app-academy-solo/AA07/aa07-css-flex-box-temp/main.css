@@ -4,27 +4,24 @@
     background-color: palegoldenrod;
     border: solid black 2px;
     font-size: 42pt;
-
-    /* Phase 1 */
-
-    /* Your code here 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .example2 {
     border: dashed grey 1px;
     border-radius: 16px;
     padding: 16px;
-
-    /* Phase 2 */
-
-    /* Your code here 
-}
+    display: inline;
+} 
 
 .example2 > button {
     padding: 6px;
     font-size: 16px;
 }
 .example2 > input {
+    margin: 8px;
     font-size: 24px;
     background-color: teal;
     color: lightcyan;
@@ -43,16 +40,17 @@
     background-color: #9999ff;
     border-radius: 25px;
     padding: 12px;
-
-    /* Phase 3 */
-
-    /* Your code here 
+    flex: 1 1 33%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    flex-direction: column;
 }
 
 .example4 {
     /* Phase 4 - Part 1 of 2 */
 
-    /* Your code here 
+
 }
 
 .sidebar {
@@ -61,17 +59,18 @@
 
     /* Phase 4 - Part 2 of 2 */
 
-    /* Your code here 
 }
 .content-area {
     background-color: #E8EFF0;
     padding: 8px;
 }
 
-blockquote {
+.blockquote{
     font-family: sans-serif;
+    justify-self: flex-start;
 }
 
 blockquote:first-letter {
     font-size: 18pt;
 }
+
